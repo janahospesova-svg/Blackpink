@@ -1,0 +1,60 @@
+body{
+  margin:0;
+  font-family:Arial;
+  background:#111827;
+  color:white;
+  }
+  
+  header{
+  display:flex;
+  justify-content:space-between;
+  
+  padding:20px;
+  
+  background:#1f2937;
+  }
+  
+  .games{
+  display:flex;
+  
+  gap:20px;
+  
+  padding:40px;
+  }
+  
+  .card{
+  background:#374151;
+  
+  padding:30px;
+  
+  border-radius:20px;
+  
+  width:200px;
+  
+  transition:0.3s;
+  }
+  
+  .card:hover{
+  transform:scale(1.05);
+  
+  background:#4b5563;
+  }
+  
+  button{
+  
+  background:#3b82f6;
+  
+  color:white;
+  
+  border:none;
+  
+  padding:10px 20px;
+  
+  border-radius:10px;
+  
+  cursor:pointer;
+  }
+  
+  button:hover{
+  background:#2563eb;
+  }
