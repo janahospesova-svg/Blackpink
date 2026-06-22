@@ -1,7 +1,7 @@
 body{
   margin:0;
   font-family:Arial;
-  background:#111827;
+  background:#557d5e;
   color:white;
   }
   
@@ -11,7 +11,7 @@ body{
   
   padding:20px;
   
-  background:#1f2937;
+  background:#7688a1;
   }
   
   .games{
@@ -23,7 +23,7 @@ body{
   }
   
   .card{
-  background:#374151;
+  background:#a7b2c3;
   
   padding:30px;
   
@@ -42,9 +42,9 @@ body{
   
   button{
   
-  background:#3b82f6;
+  background:#96b6e8;
   
-  color:white;
+  color:rgb(238, 212, 236);
   
   border:none;
   
@@ -56,5 +56,5 @@ body{
   }
   
   button:hover{
-  background:#2563eb;
+  background:#f391f9;
   }
