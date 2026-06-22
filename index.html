@@ -1,27 +1,44 @@
 <!DOCTYPE html>
-<html lang = "en">
-  <head>
-    <meta name = "viewport" content = "width = device - width, initial-scale = 1.0"></head>
-    <title>Blackpink</title>
-    <style>
-    body{
-      margin: 0;
-      font-family: Dancing script,sans serif;
-    }
-    /*Navbar*/
-    nav {
-      background: #34c9eb;
-      padding: 10px;
-      text-align: center;
-    } 
-    nav a {
-      color:rgb(255, 255, 255);
-      margin: 10px;
-      text-decoration: none;
-      font-weight: bold;
-    }
-      </style>
+<html lang="cs">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Moje Herní Stránka</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
 <body>
+
+<header>
+
+<h1 id="title">🎮 Moje Hry</h1>
+
+<select id="language">
+<option value="cs">Čeština</option>
+<option value="en">English</option>
+<option value="de">Deutsch</option>
+</select>
+
+</header>
+
+<section class="games">
+
+<div class="card">
+<h2 id="game1">Minecraft</h2>
+<button id="play">Hrát</button>
+</div>
+
+<div class="card">
+<h2>Roblox</h2>
+<button>Hrát</button>
+</div>
+
+</section>
+
+<script src="script.js"></script>
 
 </body>
 </html>
